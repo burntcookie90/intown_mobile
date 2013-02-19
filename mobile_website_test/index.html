@@ -34,9 +34,9 @@
 			}
 		</script>
 		<div data-theme="b" data-role="header">
-			<h4>
+			<h1>
 				Intown Bicycles
-			</h4>
+			</h1>
 			<a id="fullsitebtn" data-role="button" data-theme="b" href="http://www.intownbicycles.com" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">
 				Full Site
 			</a>
@@ -52,13 +52,16 @@
 						Hours
 					</h3>
 					<center>
-						<h2>
-							Regular Hours
-						</h2>
 						<h4>
-							Monday-Friday 10:00 am - 6:30 pm Saturday 10:00 am - 5:00 pm Sunday 12:02
-							pm - 5:00 pm
+							Monday-Friday 10:00 am - 6:30 pm 						
 						</h4>
+						<h4>
+							Saturday 10:00 am - 5:00 pm 
+						</h4>
+						<h4>
+							Sunday 12:02pm - 5:00 pm
+						</h4>
+
 					</center>
 				</div>
 				<div data-role="collapsible">
@@ -70,6 +73,9 @@
 						<h2 id="addresstext">
 							1035 Monroe Dr Atlanta 30306
 						</h2>
+						<h4 id="parkingtext">
+							Parking Located in Rear
+						</h4>
 					</center>
 				</div>
 				<div data-role="collapsible">
@@ -77,9 +83,20 @@
 						Services
 					</h3>
 					<center>
-						<h2 id="services list">
-							1035 Monroe Dr Atlanta 30306
-						</h2>
+						<ul id="servicebtns" data-role="listview" data-divider-theme="b" data-inset="true">
+							<li data-theme="">
+							<a href="tuneup.html" data-rel="dialog">Tune-Up</a>
+							<span class="ui-li-count">
+								$75
+							</span>
+							</li>
+							<li data-theme="b">
+							Minor Tune-Up
+							<span class="ui-li-count">
+								$50
+							</span>
+							</li>
+						</ul>
 					</center>
 				</div>
 				<div data-role="collapsible">
