@@ -9,3 +9,8 @@
 	text-align:center;
 	padding-bottom:10px;
 }
+
+.ui-collapsible h3 .ui-btn-inner
+{
+	text-align:center
+}
