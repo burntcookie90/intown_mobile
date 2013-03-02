@@ -12,5 +12,11 @@
 
 .ui-collapsible h3 .ui-btn-inner
 {
-	text-align:center
+	text-align:center;
+}
+
+.center{
+	text-align:center;
+	vertical-align:middle;
+	display:inline;
 }
