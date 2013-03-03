@@ -1,11 +1,22 @@
 /* Put your custom CSS here */
 #footer {
-	background-image:url(images/footer-bg.gif);
-	background-position:top center;
-	background-repeat:no-repeat;
-	background-color:#009344;
-	padding-top:230px;
-	clear:both;
+	/*background-image:url(images/footer-bg.gif);*/
+	/*background-position:top center;*/
+	/*background-repeat:no-repeat;*/
+	background-color:#67A1CD;
+	/*padding-top:230px;*/
+	/*clear:both;*/
+	/*text-align:center;*/
+	/*padding-bottom:10px;*/
+}
+
+.ui-collapsible h3 .ui-btn-inner
+{
 	text-align:center;
-	padding-bottom:10px;
+}
+
+.center{
+	text-align:center;
+	vertical-align:middle;
+	display:inline;
 }
