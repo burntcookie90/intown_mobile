@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="overflow">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,110 +33,112 @@
 				console.error("Your javascript has an error: " + error);
 			}
 		</script>
-		<div data-theme="b" data-role="header">
-			<h1>
-				Intown Bicycles
-			</h1>
-			<a id="fullsitebtn" data-role="button" data-theme="b" href="http://index.vishnurajeevan.com/www.intownbicycles.com/?view=full" data-ajax="false" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">
-				Full Site
-			</a>
-			<div>
-				<center><img src="http://www.intownbicycles.com/images/about-us/story/store-front-2009.JPG" width="75%"/></center>
-			</div>
-		</head>
-		<body>
-			<!-- Home -->
-			<!--<div data-role="page" id="page1">-->
-				<div data-role="collapsible">
-					<h3>
-						Hours
-					</h3>
-					<center>
-						<h4>
-							10:00 am to 6:30 pm Weekdays
-						</h4>
-						<h4>
-							10:00 am to 5:00 pm Saturday 
-						</h4>
-						<h4>
-							12:02pm to 5:00 pm Sunday 
-						</h4>
-
-					</center>
-				</div>
-				<div data-role="collapsible">
-					<h3>
-						Location
-					</h3>
-					<center><a href="https://maps.google.com/maps?q=1035+Monroe+Dr+Atlanta+30306&hnear=1035+Monroe+Dr+NE,+Atlanta,+Fulton,+Georgia+30306&gl=us&t=h&z=16&iwloc=A"><img id="locationmap" src="https://maps.googleapis.com/maps/api/staticmap?center=1035 Monroe Dr  Atlanta  30306 &amp;zoom=14&amp;size=288x200&amp;markers=1035 Monroe Dr Atlanta  30306 &amp;sensor=false" width="288" height="200" /></a></center>
-					<center>
-						<h2 id="addresstext1">
-							1035 Monroe Dr 
-						</h2>
-						<h2 id="addresstext2">
-							Atlanta 30306
-						</h2>
-						<h4 id="parkingtext">
-							Parking in Rear
-						</h4>
-					</center>
-				</div>
-				<div data-role="collapsible">
-					<h3>
-						What We Do	
-					</h3>
-					<div class="center">
-						<p>Sell New Bikes</p>
-						<p>Fix All Kinds</p>
-						<p>Carry Parts & Accessories</p>
-					</div>
-					<!--<center>-->
-						<!--<ul id="servicebtns" data-role="listview" data-divider-theme="b" data-inset="true">-->
-							<!--<li data-theme="">-->
-							<!--<a href="tuneup.html" data-rel="dialog">Tune-Up</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$75-->
-							<!--</span>-->
-							<!--</li>-->
-							<!--<li data-theme="">-->
-							<!--<a href="minortuneup.html" data-rel="dialog">Minor Tune-Up</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$50-->
-							<!--</span>-->
-							<!--</li>-->
-							<!--<li data-theme="">-->
-							<!--<a href="checkover.html" data-rel="dialog">Checkover</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$25	-->
-							<!--</span>-->
-							<!--</li>-->
-							<!--<li data-theme="">-->
-							<!--<a href="overhaul.html" data-rel="dialog">Overhaul</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$185-->
-							<!--</span>-->
-							<!--</li>-->
-							<!--<li data-theme="">-->
-							<!--<a href="transmission.html" data-rel="dialog">Transmission Clean</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$50-->
-							<!--</span>-->
-							<!--</li>-->
-							<!--<li data-theme="">-->
-							<!--<a href="tunetransmission.html" data-rel="dialog">Tune and Transmission Clean</a>-->
-							<!--<span class="ui-li-count">-->
-								<!--$125-->
-							<!--</span>-->
-							<!--</li>-->
-						<!--</ul>-->
-					<!--</center>-->
-				</div>
-				<a data-role="button" href="tel:4048721736" data-icon="info" data-iconpos="left" data-inline="false" data-mini="false" text-align:left>
-					Call Us (404) 872-1736
+		<div id="pagecontainer">
+			<div data-theme="b" data-role="header">
+				<h1>
+					Intown Bicycles
+				</h1>
+				<a id="fullsitebtn" data-role="button" data-theme="b" href="http://index.vishnurajeevan.com/www.intownbicycles.com/?view=full" data-ajax="false" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">
+					Full Site
 				</a>
-			</div>
-			<div data-role="footer" id="footer">
-			</div>
-			<!--</div>-->
-	</body>
+				<div>
+					<center><img src="http://www.intownbicycles.com/images/about-us/story/store-front-2009.JPG" width="75%"/></center>
+				</div>
+			</head>
+			<body>
+				<!-- Home -->
+				<!--<div data-role="page" id="page1">-->
+					<div data-role="collapsible">
+						<h3>
+							Hours
+						</h3>
+						<center>
+							<h4>
+								10:00 am to 6:30 pm Weekdays
+							</h4>
+							<h4>
+								10:00 am to 5:00 pm Saturday 
+							</h4>
+							<h4>
+								12:02pm to 5:00 pm Sunday 
+							</h4>
+
+						</center>
+					</div>
+					<div data-role="collapsible">
+						<h3>
+							Location
+						</h3>
+						<center><a href="https://maps.google.com/maps?q=1035+Monroe+Dr+Atlanta+30306&hnear=1035+Monroe+Dr+NE,+Atlanta,+Fulton,+Georgia+30306&gl=us&t=h&z=16&iwloc=A"><img id="locationmap" src="https://maps.googleapis.com/maps/api/staticmap?center=1035 Monroe Dr  Atlanta  30306 &amp;zoom=14&amp;size=288x200&amp;markers=1035 Monroe Dr Atlanta  30306 &amp;sensor=false" width="288" height="200" /></a></center>
+						<center>
+							<h2 id="addresstext1">
+								1035 Monroe Dr 
+							</h2>
+							<h2 id="addresstext2">
+								Atlanta 30306
+							</h2>
+							<h4 id="parkingtext">
+								Parking in Rear
+							</h4>
+						</center>
+					</div>
+					<div data-role="collapsible">
+						<h3>
+							What We Do	
+						</h3>
+						<div class="center">
+							<p>Sell New Bikes</p>
+							<p>Fix All Kinds</p>
+							<p>Carry Parts & Accessories</p>
+						</div>
+						<!--<center>-->
+							<!--<ul id="servicebtns" data-role="listview" data-divider-theme="b" data-inset="true">-->
+								<!--<li data-theme="">-->
+								<!--<a href="tuneup.html" data-rel="dialog">Tune-Up</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$75-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--<li data-theme="">-->
+								<!--<a href="minortuneup.html" data-rel="dialog">Minor Tune-Up</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$50-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--<li data-theme="">-->
+								<!--<a href="checkover.html" data-rel="dialog">Checkover</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$25	-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--<li data-theme="">-->
+								<!--<a href="overhaul.html" data-rel="dialog">Overhaul</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$185-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--<li data-theme="">-->
+								<!--<a href="transmission.html" data-rel="dialog">Transmission Clean</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$50-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--<li data-theme="">-->
+								<!--<a href="tunetransmission.html" data-rel="dialog">Tune and Transmission Clean</a>-->
+								<!--<span class="ui-li-count">-->
+									<!--$125-->
+									<!--</span>-->
+								<!--</li>-->
+								<!--</ul>-->
+							<!--</center>-->
+					</div>
+					<a data-role="button" href="tel:4048721736" data-icon="info" data-iconpos="left" data-inline="false" data-mini="false" text-align:left>
+						Call Us (404) 872-1736
+					</a>
+				</div>
+				<!--</div>-->
+		</body>
+		<div data-role="footer" id="footer" data-theme="b">
+		</div>
+	</div>
 </html>
